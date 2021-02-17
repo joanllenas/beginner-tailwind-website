@@ -5,8 +5,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      teal: colors.teal,
-      orange: colors.orange,
+      colors: {
+        teal: colors.teal,
+        orange: colors.orange,
+      },
     },
   },
   variants: {
