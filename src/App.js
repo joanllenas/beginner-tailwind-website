@@ -1,55 +1,9 @@
+import Header from "./Header";
+
 function App() {
   return (
     <div className="text-gray-700">
-      {/* 
-    ------------------------------------------------
-    header / navigation 
-    ------------------------------------------------
-    */}
-
-      <div className="container flex justify-between px-6 py-6 mx-auto lg:px-0 ">
-        {/* left section */}
-        <div className="flex items-center space-x-4">
-          <a className="text-2xl font-bold text-teal-800" href="#link">
-            Beginner Tailwind
-          </a>
-          <a
-            className="hidden hover:text-gray-900 lg:inline-block"
-            href="#link"
-          >
-            About
-          </a>
-          <a
-            className="hidden hover:text-gray-900 lg:inline-block"
-            href="#link"
-          >
-            What you'll Learn
-          </a>
-          <a
-            className="hidden hover:text-gray-900 lg:inline-block"
-            href="#link"
-          >
-            Pricing
-          </a>
-          <a
-            className="hidden hover:text-gray-900 lg:inline-block"
-            href="#link"
-          >
-            FAQ
-          </a>
-        </div>
-
-        {/* right section */}
-        <div className="flex items-center space-x-4">
-          <a href="#login">Login</a>
-          <a
-            className="hidden p-3 text-purple-700 transition duration-500 bg-purple-300 rounded shadow lg:inline-block hover:shadow-xl hover:bg-purple-200 hover:text-purple-600"
-            href="#signup"
-          >
-            Get the Course
-          </a>
-        </div>
-      </div>
+      <Header />
 
       {/* 
     ------------------------------------------------
@@ -57,7 +11,30 @@ function App() {
     ------------------------------------------------
     */}
 
-      <div className="p-20 bg-gray-300"></div>
+      <div className="p-20 bg-gray-300">
+        <div className="container px-6 py-24 mx-auto text-center lg:px-0">
+          <h1 className="mb-4">Beginner Tailwind</h1>
+
+          <p className="mb-8">
+            Make good looking designs quickly without a single line of CSS
+          </p>
+
+          <a className="inline-block mb-32" href="#link">
+            Get the course
+          </a>
+
+          <div className="relative">
+            <img src="https://i.imgur.com/wysbBMS.png" alt="" />
+
+            <div className="absolute top-0 right-0 transform translate-x-4 -translate-y-4 bg-yellow-100">
+              <p>
+                We'll create BeginnerTailwind.com (it's the site you're on now)
+              </p>
+              <p>We'll do it all without a single line of custom CSS!</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/* 
     ------------------------------------------------
