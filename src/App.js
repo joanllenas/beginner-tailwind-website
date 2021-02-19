@@ -6,12 +6,19 @@ function App() {
   return (
     <div className="text-gray-700">
       <div className="bg-gradient-to-br from-white to-gray-300">
-        <Circles classes={["top-5", "left-5"]} />
+        <Circles
+          classes={[
+            "top-0 left-0",
+            "transform -translate-x-10 -translate-y-10",
+            "lg:translate-x-4 lg:translate-y-4",
+          ]}
+        />
         <Circles
           classes={[
             "top-0 right-0",
             "mr-48",
             "transform -translate-x-64 translate-y-64",
+            "hidden lg:block",
           ]}
         />
 
