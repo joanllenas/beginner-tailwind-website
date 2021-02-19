@@ -1,7 +1,7 @@
 function Hero() {
   return (
-    <div className="p-20 bg-gray-300">
-      <div className="container px-6 py-24 mx-auto text-center lg:px-0">
+    <div className="p-20">
+      <div className="container relative px-6 py-24 mx-auto text-center lg:px-0">
         <h1 className="mb-4 text-6xl font-extrabold">
           <span className="text-transparent bg-gradient-to-r from-teal-400 to-teal-500 bg-clip-text">
             Beginner

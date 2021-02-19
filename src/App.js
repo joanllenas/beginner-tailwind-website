@@ -1,11 +1,23 @@
 import Header from "./Header";
 import Hero from "./Hero";
+import Circles from "./Circles";
 
 function App() {
   return (
     <div className="text-gray-700">
-      <Header />
-      <Hero />
+      <div className="bg-gradient-to-br from-white to-gray-300">
+        <Circles classes={["top-5", "left-5"]} />
+        <Circles
+          classes={[
+            "top-0 right-0",
+            "mr-48",
+            "transform -translate-x-64 translate-y-64",
+          ]}
+        />
+
+        <Header />
+        <Hero />
+      </div>
 
       {/* 
     ------------------------------------------------
@@ -13,7 +25,7 @@ function App() {
     ------------------------------------------------
     */}
 
-      <div className="p-20 bg-gray-50"></div>
+      <div className="p-20 bg-gray-50">overview</div>
 
       {/* 
     ------------------------------------------------
