@@ -43,8 +43,8 @@ function WhatYouWillLearn() {
         </div>
 
         <div className="grid-cols-6 gap-10 space-y-6 lg:grid lg:space-y-0">
-          {cells.map((cell) => (
-            <GridCell {...cell} />
+          {cells.map((cell, index) => (
+            <GridCell {...cell} key={index} />
           ))}
         </div>
       </div>
