@@ -1,19 +1,19 @@
 function Overview() {
   return (
-    <div className="relative pt-12 pb-24 bg-purple-700">
+    <div className="relative pb-24 bg-purple-700 lg:pt-12">
       {/* gray square at the bottom */}
       <div className="absolute bottom-0 w-full h-64 bg-gray-300"></div>
 
       {/* overview */}
 
       <div className="container relative px-6 mx-auto lg:px-0">
-        <h2 className="mb-10 text-6xl font-bold text-purple-100">
+        <h2 className="mb-10 text-4xl font-bold text-purple-100 lg:text-6xl">
           Writing CSS is tough stuff!
         </h2>
-        <div className="flex space-x-16">
+        <div className="space-y-8 lg:flex lg:space-x-16 lg:space-y-0">
           {/* left column */}
 
-          <div className="w-2/3 p-16 space-y-8 text-lg leading-relaxed text-gray-800 bg-white rounded shadow-xl">
+          <div className="p-12 space-y-8 text-lg leading-relaxed text-gray-800 bg-white rounded shadow-xl lg:p-16 lg:w-2/3">
             <p>
               Tailwind makes writing CSS easier and lets us customize our
               designs faster than any other CSS framework. If you want a CSS
