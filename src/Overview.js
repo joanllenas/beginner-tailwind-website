@@ -6,7 +6,7 @@ function Overview() {
 
       {/* overview */}
 
-      <div className="container relative px-6 mx-auto lg:px-0">
+      <div className="container relative px-6 mx-auto">
         <h2 className="mb-10 text-4xl font-bold text-purple-100 lg:text-6xl">
           Writing CSS is tough stuff!
         </h2>

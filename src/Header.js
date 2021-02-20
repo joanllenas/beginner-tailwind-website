@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <div className="container relative flex justify-between px-6 py-6 mx-auto lg:px-0">
+    <div className="container relative flex justify-between px-6 py-6 mx-auto">
       {/* left section */}
       <div className="flex items-center space-x-4">
         <a className="text-2xl font-bold text-teal-800" href="#link">
