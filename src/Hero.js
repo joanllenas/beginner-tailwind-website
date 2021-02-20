@@ -6,7 +6,7 @@ function Hero() {
 
       {/* hero */}
       <div className="container px-6 py-24 mx-auto text-center">
-        <h1 className="mb-4 text-4xl font-extrabold lg:text-6xl">
+        <h1 className="mb-4 text-3xl font-extrabold md:text-4xl lg:text-6xl font-fun">
           <span className="text-transparent bg-gradient-to-r from-teal-400 to-teal-500 bg-clip-text">
             Beginner
           </span>

@@ -9,6 +9,17 @@ module.exports = {
         teal: colors.teal,
         orange: colors.orange,
       },
+      // custom opacity
+      spacing: {
+        sm: "8px",
+        md: "12px",
+        lg: "16px",
+        xl: "24px",
+      },
+      // custom font
+      fontFamily: {
+        fun: ["Varela Round", "sans-serif"],
+      },
     },
   },
   variants: {

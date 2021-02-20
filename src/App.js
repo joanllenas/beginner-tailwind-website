@@ -8,11 +8,12 @@ import WhatWeWillBuild from "./WhatWeWillBuild";
 import Pricing from "./Pricing";
 import Faq from "./Faq";
 import Footer from "./Footer";
+import Videos from "./Videos";
 
 function App() {
   return (
     <div className="text-gray-700">
-      <div className="bg-gradient-to-br from-gray-100 to-gray-300">
+      <div className="my-header-nav-section">
         <Circles
           classes={[
             "top-0 left-0",
@@ -42,6 +43,8 @@ function App() {
       <WhatWeWillBuild />
 
       <Pricing />
+
+      <Videos />
 
       <Faq />
 
