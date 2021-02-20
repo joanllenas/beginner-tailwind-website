@@ -6,6 +6,7 @@ import About from "./About";
 import WhatYouWillLearn from "./what-you-will-learn/WhatYouWillLearn";
 import WhatWeWillBuild from "./WhatWeWillBuild";
 import Pricing from "./Pricing";
+import Faq from "./Faq";
 
 function App() {
   return (
@@ -41,13 +42,7 @@ function App() {
 
       <Pricing />
 
-      {/* 
-    ------------------------------------------------
-    faq
-    ------------------------------------------------
-    */}
-
-      <div className="p-20 bg-gray-300"></div>
+      <Faq />
 
       {/* 
     ------------------------------------------------
