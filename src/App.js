@@ -1,6 +1,7 @@
 import Header from "./Header";
 import Hero from "./Hero";
 import Circles from "./Circles";
+import Overview from "./Overview";
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
     ------------------------------------------------
     */}
 
-      <div className="p-20 bg-gray-50">overview</div>
+      <Overview />
 
       {/* 
     ------------------------------------------------
